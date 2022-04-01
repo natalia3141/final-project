@@ -1,1 +1,167 @@
+body {
+    background-image: url("./images/background.jpg");
+    background-repeat: repeat;
+    font-family: Verdana;
+    color: white;
+}
 
+p {
+    border: #EFB043 5px solid;
+    background-color:#8F0013;
+    padding: 5px;
+    font-size: 20px;
+}
+
+img {
+    border: #EFB043 5px solid;
+}
+
+p.about {
+    font-size: 25px;
+    margin: 30px;
+}
+
+
+
+.header {
+    color: #EFB043;
+    text-shadow: 2px 2px #bc7d10;
+    padding: 15px;
+    text-align: center;
+    background-color: #8F0013;
+    border-radius: 10px;
+    margin: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#logo {
+    height: 25px; 
+    width: 40px;
+    float: left;
+    clear: left;
+}
+
+
+.nav {
+    overflow: hidden;
+    background-color: #EFB043;
+  }
+  
+  .nav a {
+    float: right;
+    color: #FBFAF8;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+  }
+  
+  .nav a:hover {
+    background-color: #eda62c;
+    color: #8F0013;
+  }
+  
+  .nav a.active {
+    background-color:#eda62c;
+    color: white;
+  }
+
+
+.index-img {
+    height:450px;
+    width: 100%;
+}
+
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.column {
+    flex: 50%;
+    margin: 10px;
+  }
+  
+.row {
+    display: flex;
+}
+
+
+.footer {
+    color: white;
+    padding: 10px;
+    text-align: center; 
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #8F0013;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Verdana;
+  }
+  
+  input[type=submit] {
+    background-color: #EFB043;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #eda62c;
+    font-family: Verdana;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border:#EFB043 1px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Verdana;
+  }
+
+  label {
+      color: #8F0013;
+  }
+
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  #instagram {
+      width: 50px;
+      height: 50px;
+      border: none;
+  }
+
+  #facebook {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
